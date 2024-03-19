@@ -32,7 +32,7 @@ export default function AssignmentOne() {
     }
 
     return (
-        <div className="lg:max-w-5xl lg:mx-auto">
+        <div className="md:w-3/4 md:mx-auto  lg:max-w-5xl lg:mx-auto">
             <div className="h-20 text-2xl flex justify-start items-center">
                 Assignment 1
             </div>

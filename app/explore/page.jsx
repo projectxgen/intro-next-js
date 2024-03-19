@@ -11,7 +11,7 @@ export default function Exploration () {
     const [input, setInput] = useState('');
 
     return (
-        <div className="md:max-w-3xl md:mx-auto lg:max-w-5xl">
+        <div className="md:w-3/4 md:mx-auto lg:max-w-5xl">
             <div className="h-20 text-2xl flex justify-start items-center">
                 Exploration
             </div>
