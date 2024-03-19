@@ -32,12 +32,12 @@ export default function AssignmentOne() {
     }
 
     return (
-        <div className="lg:max-w-7xl lg:mx-auto">
+        <div className="lg:max-w-5xl lg:mx-auto">
             <div className="h-20 text-2xl flex justify-start items-center">
                 Assignment 1
             </div>
 
-            <div className="w-11/12 mt-5">
+            <div className="mt-5">
                <p> In this assignment, you will be creating a to-do list by using hook. The example of the to-do list has been done for you with full functionality of &apos;Add&apos;. Here are the list of things that you need to pay attention to: </p>
                <ul className="list-decimal ml-5">
                     <li>You need to prompt user to input text if no input is entered by adding a user interactive message by setting the border to red and the text message to red. Try to click the &apos;Add Task&apos; button by leaving the input text empty.</li>
