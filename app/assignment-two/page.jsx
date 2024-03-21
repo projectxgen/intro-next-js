@@ -8,14 +8,13 @@ import functionInAttr from '@/public/images/vscode-3.jpg'
 
 export default function AssignmentTwo() {
     const [count, setCount] = useState(0);
-    let sampleRegex = /[a-zA-Z0-9]/g
 
     function handleChange(event) {
-        let regex = /[a-zA-Z0-9]/g
+        // let regex = /[a-zA-Z0-9]/g
+        let regex = /[^\s]/g
 
         if(event == '') {
             setCount(0)
-
             return
         }
 
