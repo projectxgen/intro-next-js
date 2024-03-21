@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import task from '@/public/svgs/task.svg'
 import bulb from '@/public/svgs/bulb.svg'
+import js from '@/public/svgs/js.svg'
 
 export default function Navigation () {
     return (
@@ -19,9 +20,21 @@ export default function Navigation () {
                     </Link>
                 </li>
                 <li>
+                    <Link href="/javascript-practice" className="flex flex-row items-center h-12 transform hover:translate-x-2 transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800">
+                        <Image src={js} width={10} height={10} alt='task' className="inline-flex items-center justify-center h-6 w-12 text-lg text-gray-400"/>
+                        <span className="text-sm font-medium">JS Practice</span>
+                    </Link>
+                </li>
+                <li>
                     <Link href="/assignment-one" className="flex flex-row items-center h-12 transform hover:translate-x-2 transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800">
                         <Image src={task} width={10} height={10} alt='task' className="inline-flex items-center justify-center h-6 w-12 text-lg text-gray-400"/>
                         <span className="text-sm font-medium">Assignment 1</span>
+                    </Link>
+                </li>
+                <li>
+                    <Link href="/assignment-two" className="flex flex-row items-center h-12 transform hover:translate-x-2 transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800">
+                        <Image src={task} width={10} height={10} alt='task' className="inline-flex items-center justify-center h-6 w-12 text-lg text-gray-400"/>
+                        <span className="text-sm font-medium">Assignment 2</span>
                     </Link>
                 </li>
                 <li>
