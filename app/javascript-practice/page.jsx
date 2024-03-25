@@ -4,6 +4,8 @@ export default function JavaScriptPractice() {
             <div className="h-20 text-2xl flex justify-start items-center">
                 JavaScript Practice Problem
             </div>
+
+            
         </div>
     )
 }
