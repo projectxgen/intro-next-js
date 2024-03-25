@@ -13,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${readexPro.className} flex bg-slate-100`}>
+      <body className={`${readexPro.className} flex bg-slate-100`} suppressHydrationWarning={true}>
         <Sidebar />
         {children}
       </body>
